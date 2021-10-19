@@ -2,3 +2,33 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.nav {
+  justify-content: space-between;
+}
+.nav-items a {
+  padding: 1.5rem 1rem;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.form-container {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.tabs-block {
+  display: flex;
+}
+.tab-content {
+  display: none;
+}
+.tab-content-active {
+  display: block;
+}
